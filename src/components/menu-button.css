@@ -1,0 +1,41 @@
+div[data-reach-menu-popover] {
+  margin-top: var(--space-sm);
+}
+
+div[data-reach-menu-list] {
+  background: var(--bg-2);
+  border-radius: var(--radius);
+  box-shadow: var(--elevation-2);
+  padding: 0;
+  margin-top: var(--space-sm);
+  border: none;
+}
+
+[data-reach-menu-button][aria-expanded="true"] {
+  border-color: grey;
+  color: var(--grey);
+}
+
+div[data-reach-menu-item],
+a[data-reach-menu-item] {
+  padding: var(--space-sm);
+  color: var(--text-color);
+  font-size: var(--text-sm);
+}
+
+div[data-reach-menu-item][data-selected],
+a[data-reach-menu-item][data-selected] {
+  background: var(--accent-2);
+  transition: var(--transition);
+  border-radius: var(--radius);
+}
+
+div[data-reach-menu-item][data-selected]:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+a[data-reach-menu-item][data-selected]:last-child {
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}

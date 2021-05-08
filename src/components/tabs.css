@@ -1,0 +1,31 @@
+div[data-reach-tab-list] {
+  background-color: var(--bg-1);
+}
+
+button[data-reach-tab] {
+  font-size: var(--text-lg);
+  border-bottom-width: var(--thickness);
+  border-bottom-color: var(--bg-2);
+  background: var(--bg-2);
+  transition: var(--transition);
+}
+
+button[data-reach-tab]:first-child {
+  border-top-left-radius: var(--radius);
+}
+
+button[data-reach-tab]:last-child {
+  border-top-right-radius: var(--radius);
+}
+
+button[data-reach-tab]:hover {
+  border-bottom-color: var(--bg-2);
+  color: var(--href-hover-color);
+  transition: var(--transition);
+}
+
+button[data-reach-tab][data-selected] {
+  border-bottom-width: var(--thickness);
+  border-bottom-color: var(--accent-1);
+  color: var(--href-hover-color);
+}

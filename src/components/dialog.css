@@ -1,0 +1,30 @@
+[data-reach-dialog-overlay] {
+  z-index: 1;
+}
+
+[data-reach-dialog-overlay] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+div[data-reach-dialog-content] {
+  width: fit-content;
+  min-width: 40vw;
+  max-width: 80vw;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-2);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 900px) {
+  div[data-reach-dialog-content] {
+    min-width: 85vw;
+  }
+}

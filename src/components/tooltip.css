@@ -1,0 +1,14 @@
+button[data-reach-tooltip-trigger] {
+  background: var(--bg-1);
+  border: none;
+}
+
+div[data-reach-tooltip] {
+  color: var(--text-color);
+  background-color: var(--bg-2);
+  border-radius: var(--radius);
+  border: var(--thickness) solid var(--bg-2);
+  box-shadow: var(--elevation-1);
+  max-width: 300px !important;
+  white-space: normal !important;
+}

@@ -1,0 +1,18 @@
+div[data-reach-slider-track] {
+  background: var(--grey);
+}
+
+div[data-reach-slider-track-highlight] {
+  background: var(--accent-2);
+}
+
+div[data-reach-slider-handle] {
+  border: 2px solid var(--grey);
+  background: var(--accent-2);
+  z-index: 0;
+  box-shadow: var(--elevation-3);
+}
+
+div[data-reach-slider-range] {
+  background: var(--accent-1);
+}

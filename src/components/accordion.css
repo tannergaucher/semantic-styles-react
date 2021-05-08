@@ -1,0 +1,28 @@
+div[data-reach-accordion-panel] {
+  padding: var(--space-sm);
+  border-radius: var(--radius);
+  margin: var(--space-sm) 0;
+}
+
+button[data-reach-accordion-button] {
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  border: none;
+  border-bottom: var(--thickness) solid var(--accent-1);
+  font-size: var(--text-lg);
+  margin: 0;
+  padding: var(--space-sm) var(--space-md);
+  text-transform: none;
+  background: var(--bg-2);
+  box-shadow: var(--elevation-3);
+  color: var(--accent-1);
+}
+
+button[data-reach-accordion-button][aria-expanded="true"] {
+  color: var(--text-color);
+  border-color: var(--bg-1);
+  border-bottom-color: var(--text-color);
+  box-shadow: var(--elevation-3);
+  background: var(--bg-2);
+}

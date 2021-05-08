@@ -1,0 +1,27 @@
+div[data-reach-combobox-popover] {
+  margin-top: var(--space-sm);
+  box-shadow: var(--elevation-2);
+  border-radius: var(--radius);
+  background-color: var(--bg-2);
+}
+
+li[data-reach-combobox-option]:hover {
+  background: var(--accent-1);
+}
+
+li[data-reach-combobox-option][aria-selected="true"] {
+  background: var(--accent-1);
+}
+
+li:last-child[data-reach-combobox-option] {
+  margin-bottom: 0;
+}
+
+[data-user-value] {
+  font-weight: 300;
+  color: grey;
+}
+
+[data-suggested-value] {
+  font-weight: 700;
+}
